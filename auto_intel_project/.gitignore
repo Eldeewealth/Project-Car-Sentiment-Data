@@ -1,0 +1,43 @@
+# Byte-compiled / compiled files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Virtual environment
+venv/
+env/
+airflow_env/
+
+# Airflow
+airflow.cfg
+airflow.db
+logs/
+*.pid
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Git credentials or secrets
+.env
+*.sqlite3
+
+# Project-specific
+auto_intel/pipelines.py
+
+# Pytest and test logs
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+.cache
+nosetests.xml
+test_*.log
+junit-*.xml
