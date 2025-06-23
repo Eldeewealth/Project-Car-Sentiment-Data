@@ -41,3 +41,5 @@ coverage.xml
 nosetests.xml
 test_*.log
 junit-*.xml
+
+auto_intel_project/.gitignore
